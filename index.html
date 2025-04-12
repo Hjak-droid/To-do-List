@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>📝 To-Do List</h1>
+      <div class="toggles">
+        <label class="switch">
+          <input type="checkbox" id="toggleDark" />
+          <span class="slider"></span>
+        </label>
+      </div>
+        <label title="Toggle Background Style">
+          🎨 <input type="checkbox" id="toggleBg" />
+        </label>
+        <label title="Toggle Music">
+          🔊 <input type="checkbox" id="toggleMusic" />
+        </label>
+      </div>
+    </div>
+    
+    
+      
+
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Add a new task..." />
+      <button onclick="addTask()">Add</button>
+      <button id="clearBtn" onclick="clearTasks()">Clear All</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+  <audio id="bgMusic" loop>
+    <source src="https://cdn.pixabay.com/audio/2023/03/24/audio_125929f7b0.mp3" type="audio/mp3">
+  </audio>
+  
+</body>
+</html>
