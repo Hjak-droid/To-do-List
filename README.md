@@ -1,2 +1,22 @@
-# To-do-List
-A responsive To-Do List web app built with HTML, CSS, and JavaScript. Features include animated or time-based backgrounds, dark mode, background music toggle, task badges, and smart suggestions. Tasks are saved with localStorage. Deployed on GitHub Pages for easy sharing and access.
+# 📝 To-Do App
+
+A dynamic and responsive To-Do List web application built with **HTML, CSS, and JavaScript**. Designed for both functionality and fun, this app helps users stay productive with smart features and a personalized experience.
+
+
+## ✨ Features
+
+- ✅ Add, complete, and delete tasks
+- 💾 Save tasks in browser using localStorage
+- 🌗 Dark mode toggle
+- 🎨 Toggle between animated or time-based backgrounds
+- 🔊 Background music toggle for focus
+
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (Animations, Gradients)
+- JavaScript (DOM, Events, localStorage)
+- GitHub Pages (Deployment)
+
+
